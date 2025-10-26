@@ -2,6 +2,7 @@
 ===================================
 ### C function to get the current libuv event loop for N-API
 
+[![CI](https://github.com/napi-ffi/get-uv-event-loop-napi-h/actions/workflows/ci.yml/badge.svg)](https://github.com/napi-ffi/get-uv-event-loop-napi-h/actions/workflows/ci.yml)
 [![NPM Version](https://img.shields.io/npm/v/@napi-ffi/get-uv-event-loop-napi-h.svg?style=flat)](https://npmjs.org/package/@napi-ffi/get-uv-event-loop-napi-h)
 [![NPM Downloads](https://img.shields.io/npm/dm/@napi-ffi/get-uv-event-loop-napi-h.svg?style=flat)](https://npmjs.org/package/@napi-ffi/get-uv-event-loop-napi-h)
 
@@ -13,7 +14,7 @@ Installation
 Install with `npm`:
 
 ``` bash
-$ npm install get-uv-event-loop-napi-h
+$ npm install @napi-ffi/get-uv-event-loop-napi-h
 ```
 
 Usage
@@ -22,10 +23,10 @@ Usage
 In your `binding.gyp`:
 
 ```python
-    'include_dirs': ["<!@(node -p \"require('get-uv-event-loop-napi-h').include\")"],
+    'include_dirs': ["<!@(node -p \"require('@napi-ffi/get-uv-event-loop-napi-h').include\")"],
 ```
 
-(Just have `"<!@(node -p \"require('get-uv-event-loop-napi-h').include\")"` somewhere in that list, ok?)
+(Just have `"<!@(node -p \"require('@napi-ffi/get-uv-event-loop-napi-h').include\")"` somewhere in that list, ok?)
 
 In your C code:
 
