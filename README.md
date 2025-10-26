@@ -1,14 +1,11 @@
-get-uv-event-loop-napi-h
-=================================
+@napi-ffi/get-uv-event-loop-napi-h
+===================================
 ### C function to get the current libuv event loop for N-API
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/node-ffi-napi/get-uv-event-loop-napi-h.svg)](https://greenkeeper.io/)
+[![NPM Version](https://img.shields.io/npm/v/@napi-ffi/get-uv-event-loop-napi-h.svg?style=flat)](https://npmjs.org/package/@napi-ffi/get-uv-event-loop-napi-h)
+[![NPM Downloads](https://img.shields.io/npm/dm/@napi-ffi/get-uv-event-loop-napi-h.svg?style=flat)](https://npmjs.org/package/@napi-ffi/get-uv-event-loop-napi-h)
 
-[![NPM Version](https://img.shields.io/npm/v/get-uv-event-loop-napi-h.svg?style=flat)](https://npmjs.org/package/get-uv-event-loop-napi-h)
-[![NPM Downloads](https://img.shields.io/npm/dm/get-uv-event-loop-napi-h.svg?style=flat)](https://npmjs.org/package/get-uv-event-loop-napi-h)
-[![Build Status](https://travis-ci.org/node-ffi-napi/get-uv-event-loop-napi-h.svg?style=flat&branch=master)](https://travis-ci.org/node-ffi-napi/get-uv-event-loop-napi-h?branch=master)
-[![Coverage Status](https://coveralls.io/repos/node-ffi-napi/get-uv-event-loop-napi-h/badge.svg?branch=master)](https://coveralls.io/r/node-ffi-napi/get-uv-event-loop-napi-h?branch=master)
-[![Dependency Status](https://david-dm.org/node-ffi-napi/get-uv-event-loop-napi-h.svg?style=flat)](https://david-dm.org/node-ffi-napi/get-uv-event-loop-napi-h)
+> Forked from [node-ffi-napi/get-uv-event-loop-napi-h](https://github.com/node-ffi-napi/get-uv-event-loop-napi-h) to maintain and modernize the project while preserving the original APIs.
 
 Installation
 ------------

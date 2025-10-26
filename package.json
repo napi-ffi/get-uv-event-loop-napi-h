@@ -1,6 +1,9 @@
 {
   "author": "Anna Henningsen <anna@addaleax.net>",
-  "name": "get-uv-event-loop-napi-h",
+  "maintainers": [
+    "Gilson Urbano <hello@gilsonurbano.com>"
+  ],
+  "name": "@napi-ffi/get-uv-event-loop-napi-h",
   "license": "MIT",
   "description": "C function to get the current libuv event loop for N-API",
   "keywords": [
@@ -13,16 +16,21 @@
   "version": "1.0.6",
   "repository": {
     "type": "git",
-    "url": "git://github.com/node-ffi-napi/get-uv-event-loop-napi-h.git"
+    "url": "git://github.com/napi-ffi/get-uv-event-loop-napi-h.git"
   },
   "main": "get-paths.js",
+  "files": [
+    "get-paths.js",
+    "include/"
+  ],
   "scripts": {
-    "test": "reverse-test setimmediate-napi"
-  },
-  "dependencies": {
-    "get-symbol-from-current-process-h": "^1.0.1"
+    "test": "node-gyp rebuild --directory . && node test/test.js",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "install": "echo 'No build step required for installation'"
   },
   "devDependencies": {
-    "reverse-test": "^1.1.0"
+    "node-addon-api": "^8.2.1",
+    "node-gyp": "^11.5.0"
   }
 }
